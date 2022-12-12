@@ -3,6 +3,8 @@ package javaTasks.string;
 import java.util.Random;
 import java.util.Scanner;
 
+//new addition
+
 public class Tasks {
 
     //Task2
