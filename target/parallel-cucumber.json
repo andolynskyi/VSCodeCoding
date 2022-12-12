@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Test google search field",
+        "description": "",
+        "id": "related-to-test-google-website;test-google-search-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11509780343,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be able go to the website",
+            "match": {
+              "location": "GoogleSearchField_stepDefs.user_should_be_able_go_to_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 89784,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user type in the search field the item what them need",
+            "match": {
+              "location": "GoogleSearchField_stepDefs.user_type_in_the_search_field_the_item_what_them_need()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat step_definitions.google_stepDefs.GoogleSearchField_stepDefs.user_should_be_able_see_search_result(GoogleSearchField_stepDefs.java:37)\n\tat ✽.user should be able see search result(src/test/resources/features/google.feature:7)\n",
+              "duration": 4081498,
+              "status": "pending"
+            },
+            "line": 7,
+            "name": "user should be able see search result",
+            "match": {
+              "location": "GoogleSearchField_stepDefs.user_should_be_able_see_search_result()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@google"
+          }
+        ]
+      }
+    ],
+    "name": "Related to test google website",
+    "description": "",
+    "id": "related-to-test-google-website",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/google.feature",
+    "tags": []
+  }
+]
